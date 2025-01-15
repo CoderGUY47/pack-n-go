@@ -3,7 +3,7 @@ import React from 'react'
 
 const List = ({liText}) => {
   return (
-    <li className='text-base text-[#616161] list-none font-normal font-poppins hover:text-[#00755f] duration-300 cursor-pointer'>{liText}</li>
+    <li className='text-base text-paratext list-none font-normal font-poppins hover:text-secondary duration-300 cursor-pointer'>{liText}</li>
   )
 }
 

@@ -11,7 +11,15 @@ export default {
       },
       fontFamily:{
         'poppins': ['Poppins'],
-      }
+        'nunito': ['Nunito'],
+      },
+      colors:{
+        'primary': '#1e1e1e',
+        'secondary': '#007f5f',
+        'paraText': '#616161',
+        'banner': '#f8f8f8',
+        'bannerCard': '#292929',
+      },
     },
   },
   plugins: [],
