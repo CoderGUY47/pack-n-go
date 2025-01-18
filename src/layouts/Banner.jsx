@@ -7,13 +7,18 @@ import { FiSearch } from "react-icons/fi";
 import { SlLocationPin } from "react-icons/sl";
 import { HiOutlineCalendarDateRange } from "react-icons/hi2";
 import { IoPersonOutline } from "react-icons/io5";
+import Image from '../components/Image';
+import BannerOne from '../assets/bannerOne.png'
+import BannerTwo from '../assets/bannerTwo.png'
 
 const Banner = () => {
   return (
-    <section className='bg-banner'>
+    <section className='bg-banner relative overflow-hidden'>
+      <div className='absolute top-[180px] right-[-180px] z-10'><Image className='w-[80%]' src={BannerOne}/></div>
+      <div className='absolute top-[325.5px] right-[300px] z-0'><Image className='w-[80%]'src={BannerTwo}/></div>
       <Container>
         <Flex>
-          <div className="w-1/2 pt-[27px] pb-[100px]">
+          <div className="w-1/2 pt-[27px] pb-[100px] z-10 relative">
             <h1 className='pt-10 pb-2 w-[590px] text-[65px] text-primary font-semibold font-poppins leading-[70px]'>
               Start Exploring to Find Inner Peace by Traveling.</h1>
             <p className="pt-5 pb-7 w-[590px] text-base text-third font-normal font-poppins text-paraText leading-7">
@@ -32,7 +37,6 @@ const Banner = () => {
               </button>
             </div>
           </div>
-          <div className="w-1/2"></div>
         </Flex>
       </Container>
     </section>
