@@ -20,7 +20,12 @@ export default {
         'banner': '#f8f8f8',
         'bannerCard': '#292929',
       },
+      boxShadow: {
+        '3xl': 'rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px',
+      },
     },
   },
   plugins: [],
 }
+
+// box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;

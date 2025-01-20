@@ -14,16 +14,15 @@ import BannerTwo from '../assets/bannerTwo.png'
 const Banner = () => {
   return (
     <section className='bg-banner relative overflow-hidden'>
-      <div className='absolute top-[180px] right-[-180px] z-10'><Image className='w-[80%]' src={BannerOne}/></div>
-      <div className='absolute top-[325.5px] right-[300px] z-0'><Image className='w-[80%]'src={BannerTwo}/></div>
+      <div className='absolute top-[180px] right-[-183px] z-10'><Image className='w-[80%]' src={BannerOne}/></div>
+      <div className='absolute top-[325.5px] right-[310px] z-0'><Image className='w-[80%]'src={BannerTwo}/></div>
       <Container>
         <Flex>
           <div className="w-1/2 pt-[27px] pb-[100px] z-10 relative">
             <h1 className='pt-10 pb-2 w-[590px] text-[65px] text-primary font-semibold font-poppins leading-[70px]'>
               Start Exploring to Find Inner Peace by Traveling.</h1>
             <p className="pt-5 pb-7 w-[590px] text-base text-third font-normal font-poppins text-paraText leading-7">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis commodi amet est. 
-              Incidunt officia vero beatae est, nostrum similique veniam?
+            Lost yourself with Vacation and Travel into the place that you never visit before. We have thousand places in our database for you.
             </p>
             <Button text='Discover Now'/>
             <div className="relative w-[825px] mt-10 bg-white rounded-lg rounded-tl-none pb-0">
