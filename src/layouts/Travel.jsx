@@ -19,7 +19,7 @@ const Travel = () => {
             <ParaText className='w-[690px] mx-auto text-center pt-5 pb-[112px]' text='We are self-service data analytics software that lets you create visually appealing data visualizations and insightful dashboards in minutes.'/>
 
             <Flex className="flex-wrap gap-x-[20px] gap-y-[20px]">
-            <TravelCard 
+            <TravelCard
             cardTitle="Cheap than Other" 
             cardInfo="Travelya is cheaper a other travel agency." 
             src={icon1}/>
