@@ -3,6 +3,8 @@ import Navbar from './layouts/Navbar'
 import Banner from './layouts/Banner'
 import Travel from './layouts/Travel'
 import Discover from './layouts/Discover'
+import PopularDestination from './layouts/PopularDestination'
+
 
 
 const App = () => {
@@ -11,6 +13,7 @@ const App = () => {
       <Navbar/>
       <Banner/>
       <Travel/>
+      <PopularDestination/>
       <Discover/>
   </>
   )

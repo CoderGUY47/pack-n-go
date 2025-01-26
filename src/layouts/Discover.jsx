@@ -14,7 +14,7 @@ import discoIco4 from '../assets/discoIco4.png'
 
 const Discover = () => {
   return (
-    <section className='bg-banner pt-[150px] pb-[150px] overflow-hidden'>
+    <section className='bg-banner pt-[120px] pb-[150px] -mt-[525px] overflow-hidden'>
         <Container>
             <Flex className='items-center'>
                 <div className="w-1/2">
