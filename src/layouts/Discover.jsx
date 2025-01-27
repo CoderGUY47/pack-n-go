@@ -5,12 +5,12 @@ import ParaHeader from '../components/ParaHeader';
 import ParaText from '../components/ParaText';
 import Button from '../components/Button';
 import { IoCheckmarkSharp } from "react-icons/io5";
+import { FaUser } from "react-icons/fa6";
+import { BsPeopleFill } from "react-icons/bs";
+import { GiTrophy } from "react-icons/gi";
+import { TbLocationPin } from "react-icons/tb";
 import DiscoCard from '../components/DiscoCard';
-import discoIco1 from '../assets/discoIco1.png'
-import discoIco2 from '../assets/discoIco2.png'
-import discoIco3 from '../assets/discoIco3.png'
-import discoIco4 from '../assets/discoIco4.png'
-
+// import { FaUser, BsPeopleFill, GiTrophy, TbLocationPin } from "react-icons/fa6";
 
 const Discover = () => {
   return (
@@ -47,10 +47,10 @@ const Discover = () => {
 
                 <div className="w-1/2"> 
                     <Flex className='flex-wrap gap-[30px]'>
-                        <DiscoCard className='p-4 rounded-xl' src={discoIco1} cardTitle='500k+' cardInfo='Satisfied Clients'/> 
-                        <DiscoCard className='p-4 rounded-xl' src={discoIco2} cardTitle='250k+' cardInfo='Active Achieve'/> 
-                        <DiscoCard className='p-4 rounded-xl' src={discoIco3} cardTitle='15k+' cardInfo='Active Members'/> 
-                        <DiscoCard className='p-4 rounded-xl' src={discoIco4} cardTitle='10k+' cardInfo='Tour Destination'/> 
+                        <DiscoCard DiscoIcon={FaUser}        cardTitle='500k+' cardInfo='Satisfied Clients'/> 
+                        <DiscoCard DiscoIcon={BsPeopleFill}  cardTitle='250k+' cardInfo='Active Achieve'/> 
+                        <DiscoCard DiscoIcon={GiTrophy}      cardTitle='15k+' cardInfo='Active Members'/> 
+                        <DiscoCard DiscoIcon={TbLocationPin} cardTitle='10k+' cardInfo='Tour Destination'/> 
                     </Flex>
                 </div>
             </Flex>

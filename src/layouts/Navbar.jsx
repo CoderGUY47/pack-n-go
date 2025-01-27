@@ -5,6 +5,7 @@ import Image from '../components/Image'
 import LogoImage from '../assets/logo.png'
 import List from '../components/List'
 import Button from './../components/Button';
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
@@ -17,9 +18,9 @@ const Navbar = () => {
             <div className="w-8/12">
                 <ul>
                     <Flex className="justify-center gap-x-9 py-2 ml-14">
-                        <List liText="Home"/>
-                        <List liText="Tour"/>
-                        <List liText="Booking"/>
+                        <Link to='/'><List liText="Home"/></Link>
+                        <Link to='/tours'><List liText="Tours"/></Link>
+                        <Link to='/books'><List liText="Booking"/></Link>
                         <List liText="Pages"/>
                         <List liText="Features"/>
                         <List liText="Blog"/>
