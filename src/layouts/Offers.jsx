@@ -16,7 +16,7 @@ import { FaAngleDown } from "react-icons/fa6";
 
 const Offers = () => {
   return (
-    <section className='py-6'>
+    <section className='py-20'>
         <Container>
             <Flex className='items-center mb-[80px]'>
                 <div className="w-1/2 px-10">
@@ -73,9 +73,9 @@ const Offers = () => {
                 </div>
                 <div className="w-1/2 relative">
                     <Image src={OffersImg3}/>
-                    <div className='absolute px-5 py-2 bg-white shadow-3xl rounded-[8px] bottom-2 left-20'>Lorem ipsum dolor sit amet.</div>
-                    <div className='absolute px-5 py-2 bg-white shadow-3xl rounded-[8px] bottom-20 left-12'>Lorem ipsum dolor sit amet.</div>
-                    <div className='absolute px-5 py-2 bg-white shadow-3xl rounded-[8px] bottom-40 left-7'>Lorem ipsum dolor sit amet.</div>
+                    <div className='absolute px-5 py-2 bg-white shadow-3xl rounded-[8px] bottom-[133px] left-20'>Hi, Can you help me? 😔</div>
+                    <div className='absolute px-5 py-2 bg-white shadow-3xl rounded-[8px] bottom-[70px] left-[120px]'>Can I get my money back?</div>
+                    <div className='absolute px-5 py-2 bg-white shadow-3xl rounded-[8px] bottom-[7px] left-[100px]'>Thanks for your help!! 😍😍😍😍</div>
                 
                 </div>
             </Flex>

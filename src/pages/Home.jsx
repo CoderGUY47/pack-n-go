@@ -5,6 +5,7 @@ import Travel from '../layouts/Travel'
 import Discover from '../layouts/Discover'
 import PopularDestination from '../layouts/PopularDestination'
 import Offers from '../layouts/Offers'
+import TopDestination from '../layouts/TopDestination'
 const Home = () => {
   return (
     <>
@@ -14,6 +15,7 @@ const Home = () => {
         <PopularDestination/>
         <Discover/>
         <Offers/>
+        <TopDestination/>
     </>
 
   )
