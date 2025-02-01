@@ -6,7 +6,7 @@ import Button from './Button';
 
 const PopularCard = ({image, title, details, price}) => {
   return (
-    <div className='w-[370px] h-[550px] bg-white shadow-3xl p-5 rounded-2xl pb-500px'>
+    <div className='w-[370px] h-[550px] bg-white shadow-3xl p-5 rounded-2xl pb-[500px]'>
       <div className='w-[329px] h-[203px] flex items-center justify-center'>
         <Image className='w-full rounded-2xl -mt-2' src={image} />
       </div>

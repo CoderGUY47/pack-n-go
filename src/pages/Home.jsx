@@ -6,6 +6,9 @@ import Discover from '../layouts/Discover'
 import PopularDestination from '../layouts/PopularDestination'
 import Offers from '../layouts/Offers'
 import TopDestination from '../layouts/TopDestination'
+import Testimonial from '../layouts/Testimonial'
+import Subscribe from '../layouts/Subscribe'
+
 const Home = () => {
   return (
     <>
@@ -16,6 +19,8 @@ const Home = () => {
         <Discover/>
         <Offers/>
         <TopDestination/>
+        <Testimonial/>
+        <Subscribe/>
     </>
 
   )
