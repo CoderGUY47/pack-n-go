@@ -8,6 +8,7 @@ import Offers from '../layouts/Offers'
 import TopDestination from '../layouts/TopDestination'
 import Testimonial from '../layouts/Testimonial'
 import Subscribe from '../layouts/Subscribe'
+import Footer from '../layouts/Footer'
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
         <TopDestination/>
         <Testimonial/>
         <Subscribe/>
+        <Footer/>
     </>
 
   )
