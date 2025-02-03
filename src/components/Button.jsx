@@ -6,8 +6,8 @@ const Button = ({ text, className }) => {
       className={`text-white bg-secondary px-7 py-3 
       text-1xl rounded-2xl font-poppins font-semibold 
       border-2 border-transparent 
-      hover:bg-transparent hover:border-secondary 
-      hover:text-secondary duration-300 ${className}`}>{text}</button>
+      md:hover:bg-transparent md:hover:border-secondary 
+      md:hover:text-secondary duration-300 ${className}`}>{text}</button>
   );
 };
 

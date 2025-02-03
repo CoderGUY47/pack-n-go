@@ -14,7 +14,7 @@ import DiscoCard from '../components/DiscoCard';
 
 const Discover = () => {
   return (
-    <section className='bg-banner pt-[120px] pb-[150px] -mt-[525px] overflow-hidden'>
+    <section className='bg-banner pt-[120px] pb-[150px] md:-mt-[525px] mt-[20px] overflow-hidden'>
         <Container>
             <Flex className='items-center'>
                 <div className="w-1/2">

@@ -6,7 +6,7 @@ import Button from './Button';
 
 const PopularCard = ({image, title, details, price}) => {
   return (
-    <div className='w-[370px] h-[550px] bg-white shadow-3xl p-5 rounded-2xl pb-[500px]'>
+    <div className='w-[370px] h-[450px] md:w-[370px] md:h-[550px] bg-white shadow-3xl p-5 rounded-2xl pb-[500px]'>
       <div className='w-[329px] h-[203px] flex items-center justify-center'>
         <Image className='w-full rounded-2xl -mt-2' src={image} />
       </div>
@@ -20,9 +20,9 @@ const PopularCard = ({image, title, details, price}) => {
       </Flex>
       <h4 className='text-[25px] text-primary font-poppins font-semibold py-2'>{title}</h4>
       <p className='w-[325px] text-[16px] text-paraText font-poppins font-normal py-4'>{details}</p>
-      <Flex>
+      <Flex className='!block'>
         <h5 className='text-[20px] text-primary font-poppins font-semibold'>{price} 
-          <span className='text-base text-primary font-poppins font-normal'>/ Person</span></h5>
+        <span className='text-base text-primary font-poppins font-normal'>/ Person</span></h5>
       </Flex>
       <Button className='mt-[25px] mb-[38px] py-2.5' text='Book Now'/>
     </div>
