@@ -40,7 +40,7 @@ const PopularDestination = () => {
   };
 
   return (
-    <section className='py-[90px] mt-20'>
+    <section className='py-[50px] mt-[0px]'>
       <Container>
         <ParaHeader className='text-center' text='Popular Destination' />
         <ParaText

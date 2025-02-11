@@ -11,7 +11,7 @@ const Footer = () => {
         <Container>
             <Flex className='gap-x-10'>
                 <div className="w-[40%]">
-                    <Image className='w-[30%]' src={Logo}/>
+                    <Image className='w-[40%]' src={Logo}/>
                     <ul className='flex list-none gap-x-5 py-[30px]'>
                         <li><FaFacebook className='text-[44px] text-[#1877F2]'/></li>
                         <li><FaXTwitter className='text-[44px] text-primary'/></li>

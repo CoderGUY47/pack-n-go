@@ -16,11 +16,11 @@ const Travel = () => {
     <section className='py-[150px]'> 
         <Container>
             <ParaHeader className='text-center' text='Travel Benefit For User'/>
-            <ParaText className='w-[690px] mx-auto text-center pt-5 pb-[112px]' text='We are self-service data analytics software that lets you create visually appealing data visualizations and insightful dashboards in minutes.'/>
+            <ParaText className='md:w-[690px] w-[369px] mx-auto text-center md:pt-5 pt-2 pb-[112px]' text='We are self-service data analytics software that lets you create visually appealing data visualizations and insightful dashboards in minutes.'/>
 
-            <Flex className="flex-wrap gap-x-[20px] gap-y-[20px]">
+            <Flex className="flex-wrap md:p-0 p-3 gap-x-[20px] gap-y-[20px]">
             <TravelCard
-            cardTitle="Cheap than Other" 
+            cardTitle="Cheaper than Other" 
             cardInfo="Travelya is cheaper a other travel agency." 
             src={icon1}/>
 

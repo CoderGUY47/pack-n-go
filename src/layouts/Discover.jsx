@@ -14,38 +14,38 @@ import DiscoCard from '../components/DiscoCard';
 
 const Discover = () => {
   return (
-    <section className='bg-banner pt-[120px] pb-[150px] md:-mt-[525px] mt-[20px] overflow-hidden'>
+    <section className='py-[70px] md:mt-[0px] mt-[20px] overflow-hidden'>
         <Container>
-            <Flex className='items-center'>
+            <Flex className=''>
                 <div className="w-1/2">
-                    <ParaHeader className='-mt-[40px]' text='Go Travel, Discover Remember Us'/>
+                    <ParaHeader className='mt-[40px]' text='Go Travel, Discover Remember Us'/>
                     <ParaText className='mt-[30px] w-[500px]' 
                     text='We are self-service data analytics software that lets 
                     you create visually appealing data visualizations and insightful 
                     dashboards in minutes.'/>
 
-                    <Flex className='gap-x-2.5 py-2.5 items-center'>
+                    <Flex className='gap-x-2.5 py-1 items-center'>
                         <span><IoCheckmarkSharp className='text-secondary'/></span>
-                        <ParaText className='w-[338px]' 
+                        <ParaText className='w-[440px]' 
                         text='We are self-service data software visually 
                         appealing data visualizations.'/>
                     </Flex>
-                    <Flex className='gap-x-2.5 py-2.5 items-center'>
+                    <Flex className='gap-x-2.5 py-1 items-center'>
                         <span><IoCheckmarkSharp className='text-secondary'/></span>
-                        <ParaText className='w-[338px]' 
+                        <ParaText className='w-[440px]' 
                         text='We are self-service data software visually 
                         appealing data visualizations.'/>
                     </Flex>
-                    <Flex className='gap-x-2.5 py-2.5 items-center'>
+                    <Flex className='gap-x-2.5 py-1 items-center'>
                         <span><IoCheckmarkSharp className='text-secondary'/></span>
-                        <ParaText className='w-[338px]' 
+                        <ParaText className='w-[440px]' 
                         text='We are self-service data software visually 
                         appealing data visualizations.'/>
                     </Flex>
                     <Button text='Discover Place' className='mt-[30px]'/>
                 </div>
 
-                <div className="w-1/2"> 
+                <div className="w-1/2 mt-10"> 
                     <Flex className='flex-wrap gap-[30px]'>
                         <DiscoCard DiscoIcon={FaUser}        cardTitle='500k+' cardInfo='Satisfied Clients'/> 
                         <DiscoCard DiscoIcon={BsPeopleFill}  cardTitle='250k+' cardInfo='Active Achieve'/> 

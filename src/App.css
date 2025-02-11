@@ -7,9 +7,13 @@
 {
   margin: 0 10px;
 }
+.slick-list
+{
+  padding: 0px 45px 155px !important;
+}
 .slick-dots 
 {
-  bottom: 520px;
+  bottom: 5%;
   display: block;
   width: 100%;
   list-style: none;
@@ -21,7 +25,8 @@
 .slick-dots li 
 {
   display: inline-block;
-  margin: 0 5px;
+  margin: 0 auto;
+  padding-bottom: 50px;
 }
 
 .slick-dots li button:before 
@@ -34,7 +39,9 @@
 {
   color: #1e1e1e;
 }
-
+.slick-track {
+  width: 650% !important; 
+}
 /* .group 
 {
   position: relative;
